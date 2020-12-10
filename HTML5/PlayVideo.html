@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Player</title>
+    </head>
+    <body>
+        <h1>Play Custom Video</h1>
+        <video id="bunny" autoplay loop muted controls>
+            <source src="video/bunny.mp4">
+            <source src="video/bunny.mov">
+            <source src="video/bunny.org">
+        </video>
+        <br>
+        <button id="idPlay" onclick="playVideo()">Play</button>
+        <button id="idPause" onclick="pauseVideo()">Pause</button>
+        <button id="idVolumPlus" onclick="volumePlus()">Volume +</button>
+        <button id="idVolumeMinus" onclick="volumeMinus()">Volume -</button>
+        <button id="idMute" onclick="muteToggle()">Mute/UnMute</button>
+
+        <script>
+            var videoRef = document.getElementById('bunny');
+           
+            function playVideo()
+            {
+                videoRef.play();
+            }
+
+            function pauseVideo()
+            {
+                videoRef.pause();
+            }
+
+            function volumePlus()
+            {
+                videoRef.volume += videoRef.volume == 1 ? 0 : 0.1;
+            }
+            function volumeMinus()
+            {
+                videoRef.volume -= videoRef.volume == 0 ? 0: 0.1;
+            }
+            function muteToggle()
+            {
+                videoRef.muted = !videoRef.muted;
+            }
+
+        </script>
+    </body>
+</html>
