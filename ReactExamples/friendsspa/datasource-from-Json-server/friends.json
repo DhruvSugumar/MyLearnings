@@ -1,13 +1,64 @@
 {
-    "friendsapp": [
-        {
-            "id": 1,
-            "name": "Sugumar",
-            "username": "smarutharaj",
-            "totalexperience": 12
-        }
-
-    ]
-
-    
+  "friendsapp": [
+    {
+      "id": 1,
+      "name": "Sugumar",
+      "username": "smarutharaj",
+      "totalexperience": 12
+    },
+    {
+      "id": 2,
+      "name": "Raj",
+      "username": "Family",
+      "totalexperience": "5"
+    },
+    {
+      "name": "Marutharaj",
+      "username": "mdhanaraj",
+      "totalexperience": 14,
+      "id": 3
+    },
+    {
+      "name": "Dhanaraj",
+      "username": "dkanthasamy",
+      "totalexperience": 45,
+      "id": 4
+    },
+    {
+      "name": "Dharuvan",
+      "username": "Sugumar",
+      "totalexperience": "2",
+      "id": 7
+    },
+    {
+      "name": "Sangavi",
+      "username": "Sugumar",
+      "totalexperience": "8",
+      "id": 8
+    },
+    {
+      "name": "Savithiri",
+      "username": "Marutharaj",
+      "totalexperience": "41",
+      "id": 9
+    },
+    {
+      "name": "Raj",
+      "username": "Family",
+      "totalexperience": "5",
+      "id": 12
+    },
+    {
+      "id": 13,
+      "name": "test",
+      "username": "test",
+      "totalexperience": "6"
+    },
+    {
+      "name": "Om",
+      "username": "Namashivaya",
+      "totalexperience": "21",
+      "id": 14
+    }
+  ]
 }

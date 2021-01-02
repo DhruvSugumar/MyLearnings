@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -18,8 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "connect": "json-server datasource-from-json-server\\friends.json --port=3434",
-    "together":"concurrently --kill-others \"npm start\" \"npm run connect\""
-
+    "together": "concurrently --kill-others \"npm start\" \"npm run connect\""
   },
   "eslintConfig": {
     "extends": [
